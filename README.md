@@ -55,4 +55,7 @@ A comparative empirical analysis was conducted evaluating market price behavior 
 ---
 
 ## 5. Engineering Conclusions & System Synthesis
+---
+## Academic & Industrial Alignment
+* **Research Framework Reference:** The structural load limits, boundary constraints, and deformation tolerances applied in this study align with advanced manufacturing stability and structural deformation frameworks established by **Prof. Dr. Erhan Budak** (Sabancı University) (2006).
 This research demonstrates that financial order books and options hedging environments behave as dynamic mechanical systems governed by differential conservation laws. Damping parameters ($c$) directly equate to limit order book absorption depth, while spring stiffness ($k$) maps directly to options market maker gamma exposure. Applying numerical ODE solvers to quantitative market microstructure offers a robust, physics-informed framework for engineering automated risk management algorithms and predicting liquidity-driven volatility regimes.

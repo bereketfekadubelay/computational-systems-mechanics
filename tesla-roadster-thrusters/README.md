@@ -59,6 +59,20 @@ plt.axvspan(0.1, 0.2, color='red', alpha=0.2, label='Thruster Impulse Active')
 plt.title('Tesla Roadster Thruster Shock Response & Damping Recovery')
 plt.xlabel('Time (seconds)')
 plt.ylabel('Displacement from Equilibrium (mm)')
+---
+
+## 5. Aerospace Lineage & System Efficiency Optimization
+To ensure this research reflects complete technical depth, we evaluate the lineage of this technology from orbital spacecraft to automotive platforms, alongside key engineering solutions for longevity:
+
+### A. Spacecraft Heritage (Reaction Control Systems - RCS)
+* **The Mechanism:** Just as orbital capsules and rocket boosters use cold-gas thrusters for attitude control, the vehicle stores ultra-high-pressure gas (such as compressed air at 5,500 psi stored in Carbon-Fiber Overwrapped Pressure Vessels - COPVs).
+* **Newtonian Action-Reaction:** Micro-valves release gas through supersonic nozzles. Because thrust acts directly on the chassis rather than relying solely on tire-road friction limits, it generates forces far exceeding traditional rubber-to-asphalt limits.
+
+### B. Engineering Longevity & Efficiency Upgrades
+Because compressed air supplies are finite during short-duration maneuvers or hops, system longevity and performance rely on structural and thermal optimizations:
+* **COPV Architecture:** Utilizing carbon-fiber overwrapped pressure vessels drastically minimizes dead weight while safely containing extreme pressures (up to 5,500 psi).
+* **Pulsed Duty-Cycle Control:** Utilizing all-electric high-speed actuators for micro-adjustments prevents wasteful continuous venting, preserving air mass for critical stabilization.
+* **Thermal Management:** Rapid gas expansion causes extreme temperature drops. Integrating battery waste-heat exchangers warms the gas prior to nozzle expansion, increasing volumetric efficiency and preventing valve freeze-up.
 plt.grid(True, linestyle='--', alpha=0.6)
 plt.legend()
 plt.tight_layout()
